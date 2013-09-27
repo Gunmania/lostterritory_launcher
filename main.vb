@@ -42,6 +42,13 @@ Friend Class main
         On Error Resume Next
         FileNo = FreeFile()
 
+        Dim exists As Boolean
+        exists = System.IO.Directory.Exists("C:\Users\Public")
+
+        If System.IO.Directory.Exists("C:\Users\Public") <> True Then
+            System.IO.Directory.CreateDirectory("C:\Users\Public")
+        End If
+
         If DownloadFile(CheckFileUrl, "c:\users\public\temp.txt") Then
             NewestVer = ""
             FileOpen(FileNo, "c:\users\public\temp.txt", OpenMode.Input)
@@ -90,6 +97,6 @@ Friend Class main
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-
+        System.Diagnostics.Process.Start("http://witteam.gunmania.kr")
     End Sub
 End Class

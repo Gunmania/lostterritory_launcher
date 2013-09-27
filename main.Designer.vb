@@ -152,7 +152,7 @@
         Me.Label1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label1.Size = New System.Drawing.Size(198, 17)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Ver. Alpha 4 - Fix1 (2013. 6. 3)"
+        Me.Label1.Text = "Ver. Alpha 4 - Fix2 (2013. 9. 27)"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'GameLogo

@@ -10,10 +10,10 @@ Imports System.Runtime.InteropServices
 ' TODO: 어셈블리 특성 값을 확인하십시오.
 
 
-<Assembly: AssemblyTitle("")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("Revolution Software")>
-<Assembly: AssemblyProduct("")>
+<Assembly: AssemblyTitle("GameLauncher")> 
+<Assembly: AssemblyDescription("Immortality : Lost Territory Multiplay Game Launcher")> 
+<Assembly: AssemblyCompany("W.I.T. TEAM")> 
+<Assembly: AssemblyProduct("Immortality : Lost Territory")> 
 <Assembly: AssemblyCopyright("")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: AssemblyCulture("")>
