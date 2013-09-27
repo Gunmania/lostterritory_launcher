@@ -38,7 +38,7 @@ Friend Class main
         FileClose(UrlFile)
 
         Dim Ver As String
-        Ver = "20130603"
+        Ver = "20130927"
         On Error Resume Next
         FileNo = FreeFile()
 
